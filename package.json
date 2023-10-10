@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.69.1"
+  },
+  "dependencies": {
+    "pokemon": "^2.3.6"
   }
 }

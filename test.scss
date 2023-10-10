@@ -1,15 +1,10 @@
-$test: 100;
+@mixin flex-center($justify, $align, $direction) {
+  display:flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
 
 #root {
-  width: $test;
-  height: 100vh;
-  & > ul {
-    margin : 0;
-    padding: 0;
-    li {
-      width: 100px;
-      height: 300px;
-      background-color: #ccc;
-    }
-  }
+  @include flex-center(center,center ,column);
 }
