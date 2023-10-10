@@ -1,7 +1,9 @@
+$test: 100;
+
 #root {
-  width: 100vw;
+  width: $test;
   height: 100vh;
-  ul {
+  & > ul {
     margin : 0;
     padding: 0;
     li {
